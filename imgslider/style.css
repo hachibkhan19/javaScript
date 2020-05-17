@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    margin: auto;
+}
+.slider{
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    height: 400px
+}
+.slide{
+    position: absolute;
+    opacity: 0;
+    
+}
+.slide.active{
+    opacity: 1;
+}

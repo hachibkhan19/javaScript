@@ -1,0 +1,10 @@
+button{
+    background-color: green;
+    width: 50px;
+    height: 40px;
+    margin: 20px;
+}
+.anim{
+    box-shadow: 0 15px 18px 0 red;
+    opacity: 0.5;
+}

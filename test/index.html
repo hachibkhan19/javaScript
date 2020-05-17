@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part17</title>
+</head>
+<body>
+    <h1 style="color: red;">JSON</h1>    
+
+    <!-- <p id="demo">Javascript tutorial start</p>
+    <button onclick="displayDate()">This time is?</button> -->
+    <script>
+        let students = `[
+        {
+            "name": "Hachib",
+            "age": 24,
+            "height": 170
+        },
+        {
+            "name": "Mamun",
+            "age": 27,
+            "height": 180
+        }
+    ]`
+    console.log(JSON.parse(students)[1]);
+
+    </script>
+<!-- <script type="text/javascript" src="js/script.js"></script> -->
+</body>
+</html>
